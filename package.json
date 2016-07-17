@@ -1,0 +1,24 @@
+{
+  "name": "trbot",
+  "version": "1.0.0",
+  "description": "A T-Rex runner bot for great good and profit",
+  "main": "trbox.js",
+  "author": "Henrik Lissner <henrik@lissner.net>",
+  "license": "MIT",
+  "homepage": "https://github.com/hlissner/trbot-js",
+  "private": true,
+  "scripts": {
+    "build": "uglifyjs -o trbot.min.js trbot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hlissner/trbot-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hlissner/trbot-js/issues"
+  },
+  "devDependencies": {
+    "uglify-js": "^2.7.0"
+  },
+  "dependencies": {}
+}
